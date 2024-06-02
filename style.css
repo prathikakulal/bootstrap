@@ -1,0 +1,23 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+.carousel-image {
+    height: 500px;
+    width: 300px;
+    object-fit: cover; 
+}
